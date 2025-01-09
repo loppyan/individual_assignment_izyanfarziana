@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Izyan's Website!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="CSS/styleee.css">
+
+  <style>
+    body
+    {
+      background-image: url(images/blue.jpg);
+    }
+  </style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1 id="content1">⇢ ˗ˏˋ Hello</h1>
+  <button type="button" onclick='document.getElementById("content1").innerHTML="Welcome to my website ₍ ᐢ.ˬ.ᐢ₎˚୨୧"'>see more...</button>
+  <p><img src="images/sleepy.jpg" width="150px" height="150px">
+  <img src="images/loopy.jpg" width="150px" height="150px">
+  <img src="images/cute.jpg" width="150px" height="150px">
+  <img src="images/cooking.jpg" width="150px" height="150px"></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+    <a href="biodata.html">About Me</a>
+    <a href="experience.html">Work Experience</a>
+    <a href="education.html">Education</a>
+    <a href="family.html">Family</a>
+    <a class="active" href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</div><br>
+
+      <h1 style="color: cadetblue; font-size: 50px; border: 3px dashed darkseagreen; background-color: aliceblue; text-align: center;">⋆. 𐙚 ̊  My Memories ˎˊ˗</h1>
+
+      <p style="font-family: georgia; font-size:25px; color: indianred; width:60%; text-align:center; background-color:aliceblue; margin-left:150px"><i>-- Click the images below to see the caption --</i><br><i>Btw, let's listen to the song while looking at this picture</i></p>
+
+      <audio controls style="margin-left:1150px;margin-top: -50px;">
+        <source src="audio/calm.mp3" type="audio/mp3">
+  </audio>
+
+      <div class="row">
+<div class="column">
+    <img src="images/spm.jpg" alt="My smk's bestie" width="150px" height="150px" onclick="myFunction(this);">
+    <img src="images/nesa.jpg" width="150px" height="150px" alt="with Nesa" onclick="myFunction(this);">
+    <img src="images/meetagain.jpg" width="150px" height="150px" alt="Meet again after 2 years" onclick="myFunction(this);">
+    <img src="images/us.jpg" width="150px" height="150px" alt="5/5" onclick="myFunction(this);">
+ </div>
+<div class="column">
+    <img src="images/lastdayspm.jpg" width="150px" height="150px" alt="Last day Spm" onclick="myFunction(this);">
+    <img src="images/kolej.jpg" width="150px" height="150px" alt="College games" onclick="myFunction(this);">
+    <img src="images/kokosem1.jpg" width="150px" height="150px" alt="Last day Kesatria" onclick="myFunction(this);">
+    <img src="images/classmates.jpg" width="150px" height="150px" alt="My UiTM classmates" onclick="myFunction(this);">
+  </div>
+<div class="column">
+    <img src="images/zattie.jpg" width="150px" height="150px" alt="My roommate + coursemate + bestie " onclick="myFunction(this);">
+    <img src="images/lastkoku.jpg" width="150px" height="150px" alt="Last Koku" onclick="myFunction(this);">
+    <img src="images/lastsem4.jpg" width="150px" height="150px" alt="Last exam for semester 4!" onclick="myFunction(this);">
+    <img src="images/lovemaybe.jpg" width="150px" height="150px" alt="Feeling model" onclick="myFunction(this);">
+  </div>
+<div class="column">
+    <img src="images/yes.jpg" width="150px" height="150px" alt="My UiTM's bestie" onclick="myFunction(this);">
+    <img src="images/wearepretty.jpg" width="150px" height="150px" alt="My pretty gurlsss" onclick="myFunction(this);">
+    <img src="images/girlout.jpg" width="150px" height="150px" alt="Girlout 1" onclick="myFunction(this);">
+    <img src="images/girlout2.jpg" width="150px" height="150px" alt="Girlout 2" onclick="myFunction(this);">
+  </div>
+<div class="column">
+  <img src="images/vacation.jpg" width="150px" height="150px" alt="Staycation" onclick="myFunction(this);">
+  <img src="images/bunda.jpg" width="150px" height="150px" alt="with Bunda" onclick="myFunction(this);">
+  <img src="images/myaunt.jpg" width="150px" height="150px" alt="Raya at Melaka" onclick="myFunction(this);">
+  <img src="images/langkawi.jpg" width="150px" height="150px" alt="Holiday" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="images/l1.jpg" width="150px" height="150px" alt="Langkawi 1" onclick="myFunction(this);">
+  <img src="images/l2.jpg" width="150px" height="150px" alt="Langkawi 2" onclick="myFunction(this);">
+  <img src="images/l3.jpg" width="150px" height="150px" alt="Langkawi 3" onclick="myFunction(this);">
+  <img src="images/l4.jpg" width="150px" height="150px" alt="Langkawi 4" onclick="myFunction(this);">
+</div>
+</div>
+
+<br><br><br>
+
+<video width="500" height="300" controls>
+    <source src="video/familyday.MP4" type="video/MP4">
+  </video>
+  <video width="300" height="500" controls>
+    <source src="video/swim.MP4" type="video/MP4">
+  </video>
+  <video width="300" height="500" controls>
+    <source src="video/langkawi.MP4" type="video/MP4">
+  </video>
+   <video width="300" height="500" controls>
+    <source src="video/l1.MP4" type="video/MP4">
+  </video>
+
+  <br><br><br>
+
+<div class="container">
+ 
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+  <img id="expandedImg" style="width:65%">
+
+  <div id="imgtext"></div>
+</div>
+
+<script>
+  function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}</script>
+
+      <br>
+
+    <h1 style="color: cadetblue; font-size: 50px; border: 3px dashed darkseagreen; background-color: aliceblue; text-align: center;">Notes</h1>
+    <img src="images/cha.jpg" width="250px" height="250px" style="margin-right: 70px;float:right; margin-top: 30px;">
+    <img src="images/meow.gif">
+    <p style="background-color: indianred; border: 7px double beige; border-radius:20px; color: ghostwhite; font-size: 20px; font-family: garamond; padding: 10px; width: 45%; text-align: center; margin-top:-200px; margin-left: 400px">This Website is developed for IMD318 Individual Assignment<br><i>Design by:</i> Nurul Izyan Farziana binti Mohd Zamri
+    <br><i>Group:</i> D1CDIM1105F
+    <br><i>Prepared for:</i> Miss Nur Ainatul Mardiah binti Mat Nawi</p><br><br>
+
+    <h4>Please Visit Me Again ! Bye bye...</h4>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
+}</script>
+  
+</body>
+</html>
